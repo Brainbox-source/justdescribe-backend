@@ -1,5 +1,5 @@
 [project]
-name = "p02-smart-support-ticket-triage-system"
+name = "p02-smart-support-ticket-triage-system-2"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -16,10 +16,10 @@ dependencies = [
 ]
 
 [project.scripts]
-p02-smart-support-ticket-triage-system = "p02_smart_support_ticket_triage_system:main"
+p02-smart-support-ticket-triage-system-2 = "p02_smart_support_ticket_triage_system_2:main"
 
 [tool.fastapi]
-entrypoint = "p02_smart_support_ticket_triage_system.main:app"
+entrypoint = "p02_smart_support_ticket_triage_system_2.main:app"
 
 [build-system]
 requires = ["uv_build>=0.12.3,<0.13.0"]
