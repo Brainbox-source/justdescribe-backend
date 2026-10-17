@@ -650,7 +650,7 @@ wheels = [
 ]
 
 [[package]]
-name = "p02-smart-support-ticket-triage-system"
+name = "p02-smart-support-ticket-triage-system-2"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
